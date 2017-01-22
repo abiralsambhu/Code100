@@ -14,5 +14,9 @@ def insertionSort(lst):
 ######implementation ############################
 
 lst = [33,54,23,13,45,78,88,56,90] #List defined for implementation
-insertionSort(lst)
-print(lst)
+insertionSort(lst) #function call
+print( "Sorted list is :",lst)
+
+
+##OUTPUT####
+#    Sorted list is : [13, 23, 33, 45, 54, 56, 78, 88, 90]
