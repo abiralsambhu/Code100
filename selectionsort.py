@@ -1,4 +1,3 @@
-import sys
 def selectionSort(lst):
    for selectedLocation in range(len(lst)-1,0,-1):
        maxPosition=0
@@ -7,9 +6,9 @@ def selectionSort(lst):
                maxPosition = currentindex
 
   
-       lst[selectedLocation], lst[maxPosition] = lst[maxPosition],lst[selectedLocation]
+       lst[selectedLocation], lst[maxPosition] = lst[maxPosition],lst[selectedLocation] ##swapping a,b = b,a swaps a to b and b to a
       
-
+##implementation
 lst = []
 print ("input array size")
 i = int(input())
